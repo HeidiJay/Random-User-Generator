@@ -1,4 +1,20 @@
- <div id="app">
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Web Development and Design in Virginia Beach, Virginia" />
+  <meta name="keywords"
+    content="Heidi Jay, portfolio, resume, Virginia Beach website designer, web development, web design, programming, programmer, JavaScript, Python, CSS, HTML" />
+  <meta name="author" content="Heidi Jay" />
+  <title>Random User Generator</title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+
+ <body> 
+
+  <div id="app">
       <img
         v-bind:src="picture"
         :alt="`${firstName} ${lastName}`"
@@ -8,3 +24,7 @@
       <h3>Email: {{email}}</h3>
       <button :class="gender" @click="getUser()">Get Random User</button>
     </div>
+  <script src="https://unpkg.com/vue@3"></script>
+  <script scr="app.js"></script>
+ </body>
+</html>
